@@ -18,7 +18,8 @@ we have to get the output current, Id for the given circuits by adjusting the va
 
 Length and Width of the Channel used to obtain the given Current is shown in the figure below;
 
-![image](https://github.com/user-attachments/assets/ec9e6aa6-a01f-4d13-ace0-4f4f2aba9d79)
+![image](https://github.com/user-attachments/assets/9d55317d-fc5d-404d-9c64-3f6258dab362)
+
 
 1) DC ANALYSIS:
 
@@ -29,7 +30,8 @@ Length and Width of the Channel used to obtain the given Current is shown in the
 
    The Figure below shows the Values obtained from the DC Analysis : 
 
-   ![image](https://github.com/user-attachments/assets/84e637eb-3a92-4350-abb8-5438f0bb0bc1)
+   ![image](https://github.com/user-attachments/assets/696cb4c4-e484-4fb0-b9ab-cf9ceaef2c8c)
+
 
 
 2) Transient Analysis:
@@ -55,13 +57,14 @@ Length and Width of the Channel used to obtain the given Current is shown in the
 
    The Graph below shows the AC Analysis of the Given Design;
 
-   ![image](https://github.com/user-attachments/assets/587d4c80-1cfa-4723-b3e9-88cfd30848e4)
+   ![image](https://github.com/user-attachments/assets/27252440-be1f-468b-8477-fc012b867090)
+
 
 
 # RESULT( Design-1):
  1) DC Analysis:
      1. The calculated drain current (Id) matches the expected value based on power and voltage, Id = 5.56*10^-5 A.
-     2. By adjusting the MOSFET’s channel dimensions (L & W) where L=500nm and W= 1053nm, The current requirement was succesfully achecived.
+     2. By adjusting the MOSFET’s channel dimensions (L & W) where L=180nm and W= 203nm, The current requirement was succesfully achecived.
      4. The circuit behaves as expected under DC conditions.
 
  2) Transient Analysis:
@@ -103,7 +106,7 @@ we have to select the DC SWEEP in the Edit Simulation Command,  Give the values 
 
 ![image](https://github.com/user-attachments/assets/b26e13fb-57be-4522-8e21-9b4730448512)
 
-The Graph beow represents the VTC Curve and the value of the vin is selected as 0.7V as it is present in the saturation region of the VTC Curve
+The Graph below represents the VTC Curve and the value of the vin is selected as 0.7V as it is present in the saturation region of the VTC Curve
 
 ![image](https://github.com/user-attachments/assets/fdf95436-c71a-4046-bcca-ddba2ffd6523)
 
