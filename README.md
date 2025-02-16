@@ -18,7 +18,7 @@ we have to get the output current, Id for the given circuits by adjusting the va
 
 Length and Width of the Channel used to obtain the given Current is shown in the figure below;
 
-   ![Screenshot 2025-02-16 120802](https://github.com/user-attachments/assets/109d353f-a954-4e08-b8d1-603ea40ea67c)
+![image](https://github.com/user-attachments/assets/ec9e6aa6-a01f-4d13-ace0-4f4f2aba9d79)
 
 1) DC ANALYSIS:
 
@@ -29,7 +29,8 @@ Length and Width of the Channel used to obtain the given Current is shown in the
 
    The Figure below shows the Values obtained from the DC Analysis : 
 
-   ![Screenshot 2025-02-16 121045](https://github.com/user-attachments/assets/22bca609-a67e-4459-aa60-e584eb189442)
+   ![image](https://github.com/user-attachments/assets/84e637eb-3a92-4350-abb8-5438f0bb0bc1)
+
 
 2) Transient Analysis:
 
@@ -40,9 +41,12 @@ Length and Width of the Channel used to obtain the given Current is shown in the
 
    The Graph below shows the Transient Response of the Given Design;
 
-   ![Screenshot 2025-02-16 122339](https://github.com/user-attachments/assets/87da114b-e8f6-4981-823f-d8a504316454)
+   ![image](https://github.com/user-attachments/assets/3e2f6c3e-e915-4dbc-aa56-36eaa5ec92e2)
+   ![image](https://github.com/user-attachments/assets/c644c390-a82f-473c-9cb5-f333b28ba855)
+
+
    
-3) AC Analysis:
+4) AC Analysis:
    
    Procedure for Performing AC Analysis:
    we have to select the AC Analysis in the Edit Simulation Command,  Give the values as shown in the figure beowl and Run th Simulation.
