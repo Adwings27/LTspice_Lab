@@ -55,12 +55,13 @@ Length and Width of the Channel used to obtain the given Current is shown in the
 
    The Graph below shows the AC Analysis of the Given Design;
 
-   ![Screenshot 2025-02-16 122533](https://github.com/user-attachments/assets/b4141a4f-8031-4fb8-b5a9-40fe35f9c590)
+   ![image](https://github.com/user-attachments/assets/587d4c80-1cfa-4723-b3e9-88cfd30848e4)
+
 
 # RESULT( Design-1):
  1) DC Analysis:
      1. The calculated drain current (Id) matches the expected value based on power and voltage, Id = 5.56*10^-5 A.
-     2. By adjusting the MOSFET’s channel dimensions (L & W) where L=175nm and W= 178nm, The current requirement was succesfully achecived.
+     2. By adjusting the MOSFET’s channel dimensions (L & W) where L=500nm and W= 1053nm, The current requirement was succesfully achecived.
      4. The circuit behaves as expected under DC conditions.
 
  2) Transient Analysis:
@@ -70,7 +71,7 @@ Length and Width of the Channel used to obtain the given Current is shown in the
 
  3) AC Analysis:
      1. The AC response graph confirms that the circuit remains stable at different frequencies.
-     2. The gain(-9.94 dB) and phase shift(which is nearly 180deg) align with theoretical expectations.
+     2. The gain(10 dB) and phase shift(which is nearly 180deg) align with theoretical expectations.
      3. The circuit maintains its performance across the tested frequency range.
 
 # INFERENCE( Design-1):
