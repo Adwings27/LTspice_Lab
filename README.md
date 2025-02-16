@@ -85,8 +85,7 @@ Length and Width of the Channel used to obtain the given Current is shown in the
 
 # Design-2
 
-![image](https://github.com/user-attachments/assets/83923042-e6f6-48d3-9e7c-22a1b5503ad2)
-
+![image](https://github.com/user-attachments/assets/9fb14382-e1a6-4662-a5f5-48cc425f37aa)
 
 Using the Formula for Power, 
 
@@ -116,9 +115,8 @@ Then the input voltage parameters are given as;
 
 Length and Width of the Channel of the two MOSFETS used to obtain the given Current is shown in the figure below;
 
-![image](https://github.com/user-attachments/assets/a4487d41-12aa-4da9-82a6-5a049f2db820)
-![image](https://github.com/user-attachments/assets/4b425a5b-3abd-4e4d-b1a4-8a82bf079b08)
-
+![image](https://github.com/user-attachments/assets/dd6df468-7957-4602-bd00-801673f71ae5)
+![image](https://github.com/user-attachments/assets/f2490db8-57c7-4949-9e67-ba6728b574c2)
 
 
 Now we will be performing the DC, Transient and AC Anlaysis;
