@@ -85,7 +85,8 @@ Length and Width of the Channel used to obtain the given Current is shown in the
 
 # Design-2
 
-![Screenshot 2025-02-16 124234](https://github.com/user-attachments/assets/59e297de-ed5d-426c-8e40-92aee8d3e793)
+![image](https://github.com/user-attachments/assets/83923042-e6f6-48d3-9e7c-22a1b5503ad2)
+
 
 Using the Formula for Power, 
 
@@ -105,7 +106,8 @@ we have to select the DC SWEEP in the Edit Simulation Command,  Give the values 
 
 The Graph beow represents the VTC Curve and the value of the vin is selected as 0.8V as it is present in the saturation region of the VTC Curve
 
-![Screenshot 2025-02-16 125157](https://github.com/user-attachments/assets/abddb50e-8287-42ad-9dcc-fc4e29b37ff7)
+![image](https://github.com/user-attachments/assets/fdf95436-c71a-4046-bcca-ddba2ffd6523)
+
 
 Then the input voltage parameters are given as;
 
