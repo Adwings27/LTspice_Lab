@@ -130,7 +130,8 @@ Now we will be performing the DC, Transient and AC Anlaysis;
 
    The Figure below shows the Values obtained from the DC Analysis :
 
-   ![image](https://github.com/user-attachments/assets/e935cc0f-9d3d-473e-9b6d-9542b8d84477)
+   ![image](https://github.com/user-attachments/assets/e159d32d-0495-4539-835a-ab8fb9b1c6d4)
+
 
 
 2) Transient Analysis:
@@ -177,7 +178,7 @@ Now we will be performing the DC, Transient and AC Anlaysis;
 3.AC Analysis:
 
    1. The AC response graph confirms that the circuit maintains stability over the tested frequency range.
-   2. The gain(-0.4 dB) and phase shift (which is nearly 180deg) align with theoretical expectations.
+   2. The gain(5.5 dB) and phase shift (which is nearly 180deg) align with theoretical expectations.
    3. The circuit functions as expected under AC conditions.
 
 # Inference (Design-2):
