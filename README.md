@@ -3,7 +3,8 @@ Question : Given that POWER, P=100µ W; Perform DC Analysis, Transient Analysis 
 
 # Design-1 :
 
-   ![Screenshot 2025-02-16 111936](https://github.com/user-attachments/assets/0b661ae7-5761-4b9b-bd75-93c0fc60eabb)
+   ![image](https://github.com/user-attachments/assets/9a8fab35-b076-453d-8c19-eeb2f14c3d76)
+
 
 Using the Formula for Power, 
 
