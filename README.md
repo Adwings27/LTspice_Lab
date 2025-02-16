@@ -156,7 +156,8 @@ Now we will be performing the DC, Transient and AC Anlaysis;
 
    The Graph below shows the AC Analysis of the Given Design;
 
-   ![image](https://github.com/user-attachments/assets/9337c1b2-aa5c-4ccd-89f2-66d87a8aa8f0)
+   ![image](https://github.com/user-attachments/assets/12fadf99-8548-466c-8d8d-cb1cd62253b2)
+
 
 
 # RESULT(DESIGN-2)
@@ -164,8 +165,8 @@ Now we will be performing the DC, Transient and AC Anlaysis;
 
    1. The calculated drain current (Id) aligns with the expected value based on power and voltage, where the value of Id = 5.56*10^-5 A .
    2. By fine-tuning the channel dimensions (L & W) of both MOSFETs ( M1 & M2), the desired current was achieved,
-         1. M1 : L= 180nm  , W= 878nm.
-         2. M2 : L= 180nm  , W= 878nm.      
+         1. M1 : L= 180nm  , W= 1105nm.
+         2. M2 : L= 180nm  , W= 1105nm.      
    4. The circuit operates correctly within the selected DC parameters.
 
 2.Transient Analysis:
