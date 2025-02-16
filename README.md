@@ -74,7 +74,7 @@ Length and Width of the Channel used to obtain the given Current is shown in the
 
  3) AC Analysis:
      1. The AC response graph confirms that the circuit remains stable at different frequencies.
-     2. The gain(10 dB) and phase shift(which is nearly 180deg) align with theoretical expectations.
+     2. The gain(2 dB) and phase shift(which is nearly 180deg) align with theoretical expectations.
      3. The circuit maintains its performance across the tested frequency range.
 
 # INFERENCE( Design-1):
