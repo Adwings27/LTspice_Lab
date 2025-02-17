@@ -108,7 +108,7 @@ we have to select the DC SWEEP in the Edit Simulation Command,  Give the values 
 
 The Graph below represents the VTC Curve and the value of the vin is selected as 0.7V as it is present in the saturation region of the VTC Curve
 
-![image](https://github.com/user-attachments/assets/fdf95436-c71a-4046-bcca-ddba2ffd6523)
+![image](https://github.com/user-attachments/assets/16b8364d-ffda-40e0-bb75-9e84942f9ae0)
 
 
 Then the input voltage parameters are given as;
