@@ -71,7 +71,7 @@ Length and Width of the Channel used to obtain the given Current is shown in the
      1. The transient response graph shows how the circuit behaves over time.
      2. The response is smooth, with no unexpected delays or distortions.
      3. The circuit reacts well to changes, confirming its stability.
-     4. The gain obtained is 2.51.
+     4. The gain obtained is 1.85.
 
  3) AC Analysis:
      1. The AC response graph confirms that the circuit remains stable at different frequencies.
