@@ -178,7 +178,7 @@ Now we will be performing the DC, Transient and AC Anlaysis;
 
    1. The transient response graph confirms that the circuit transitions smoothly over time.
    2. The circuit responds effectively to input variations, indicating stable operation.
-   3. The gain obtained is 2.44.
+   3. The gain obtained is 2.28.
 
 3.AC Analysis:
 
