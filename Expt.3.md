@@ -78,7 +78,7 @@ The below picture shows the waveforms obtained after transient analysis:
 
 ![Transient](https://github.com/user-attachments/assets/c4c9334a-67fa-4690-a039-403fb2012ece)
 
-The gain is given by Av = Vout/Vin= 1.81/1.72 = 1.05 V/V
+The gain is given by Av = Vout/Vin= (1.88-1.74)/(1.77-1.67) = 1.4 V/V
 
 Vin Max= VoutCM + Vth
 
