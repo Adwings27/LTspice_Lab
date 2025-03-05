@@ -107,6 +107,8 @@ We get the following frequency response for the given circuit:
 
 The gain of this amplifier is 3.2 dB.
 
+The bandwidth is 2 MHz.
+
 ## **4. Inference:**
 
 1. The source voltage increases as Vcm increases.
