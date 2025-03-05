@@ -26,7 +26,7 @@ A MOSFET differential amplifier consists of:
 DC analysis helps determine the operating point (Q-point) of the MOSFETs.  
 - Assume both transistors are in **saturation region**:  
 
-  I_{D} = 1/2*mu_n*C_{ox}*{W}/{L}*(V_{GS} - V_{th})^2
+  I_{D} = 1/2 * Mu_n * C_{ox} * {W}/{L} * (V_{GS} - V_{th})^2
   where:  
   - mu_n = Electron mobility  
   - C_{ox} = Oxide capacitance per unit area  
