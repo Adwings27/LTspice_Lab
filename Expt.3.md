@@ -97,7 +97,7 @@ Similary for Vin Min, the output will be a square wave
 ## **3. AC Analysis (Small-Signal Gain and Frequency Response):**  
 - The small-signal model of the MOSFET is used for AC analysis.  
 - The small-signal **differential gain** is given by:  
-  A_d = g_m*R_D
+  A_d = -g_m*R_D 
   where g_m is the transconductance of the MOSFET  
   - Frequency response is determined by analyzing the **3dB bandwidth**.
 
