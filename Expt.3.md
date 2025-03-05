@@ -55,7 +55,8 @@ Below shown table gives the values obtained from the DC analysis which closely m
 
 ![DCanalysisDA](https://github.com/user-attachments/assets/bef5efe6-9805-49c1-8d25-eddb3a4c046e)
 
-Vid = Vin1 - Vin2
+**We have an equation Vid = Vin1 - Vin2**
+
 So when Vin1 is increased to 1.76 V and Vin2 is decreased to 1.68 V we get the following values:
 
 ![VidInc](https://github.com/user-attachments/assets/8a5ef67d-36ab-4e7d-bd87-b9646d921923)
@@ -63,6 +64,8 @@ So when Vin1 is increased to 1.76 V and Vin2 is decreased to 1.68 V we get the f
 Similarly, when Vin1 is decreased to 1.68 V and Vin2 is increased to 1.76 V we get the following values:
 
 ![VidDec](https://github.com/user-attachments/assets/eaf5e982-72cd-499a-8fbe-4a42d0d24e36)
+
+**From this, we can infer that when Vid increases Vout1-Vout2 decreases and vice versa.**
 
 **2. Transient Analysis (Time-Domain Response):**  
 - In transient analysis, we apply a time-varying input signal and observe the response at the output.  
