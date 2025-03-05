@@ -39,6 +39,7 @@ DC analysis helps determine the operating point (Q-point) of the MOSFETs.
   I_D1 = I_D2 = I_{tail}/2
   The **output DC voltage** is given by:  
   V_{out1} = V_{DD} - I_{D1} R_D
+  
   V_{out2} = V_{DD} - I_{D2} R_D
 
 **2. Transient Analysis (Time-Domain Response):**  
