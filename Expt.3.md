@@ -131,6 +131,13 @@ The below values were obtained in the analysis:
 
 ![DcanalysisCur](https://github.com/user-attachments/assets/9d39d5a1-cb77-4eb0-9af5-3356def85ba4)
 
+## **Transient Analysis**
+
+With the current source, we obtain the following waveforms:
+
+![image](https://github.com/user-attachments/assets/cef3071e-fdc3-4f88-a78b-cd7e1f75eef2)
+
+Av = Vout/Vin = 4.4 V/V
 
 
 ## **Inference:**
