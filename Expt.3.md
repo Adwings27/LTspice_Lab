@@ -145,8 +145,7 @@ The below is the frequency response obtained:
 
 ![image](https://github.com/user-attachments/assets/f01aa9c2-61e6-4184-9058-d02c64452474)
 
-The gain is 30 dB and the bandwidth is 10 MHz
-
+The gain is 30 and the bandwidth is 10 MHz.
 
 
 ## **Inference:**
