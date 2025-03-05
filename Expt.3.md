@@ -79,9 +79,11 @@ The below picture shows the waveforms obtained after transient analysis:
 ![Transient](https://github.com/user-attachments/assets/c4c9334a-67fa-4690-a039-403fb2012ece)
 
 Vin Max= VoutCM + Vth
+
 Vin Max= 1.8 V + 0.36 V = 2.16 V
 
 Similarly, Vin Min= Vgs + Vp
+
 Vin Min= 1.02 V + 0.7 V = 1.72 V
 
 When Vin Max is applied in the amplitude of the input sine wave we get the following output of a square wave
@@ -105,51 +107,21 @@ We get the following frequency response for the given circuit:
 
 The gain of this amplifier is 3.2 dB.
 
-**Conclusions:**
+**4. Inference:**
+
 1. The source voltage increases as Vcm increases.
 2. Vout decreases with increase in Vcm, due to increase in drain current Id.
 3. If Vcm is too low the Mosfets turn off and the amplifier stops working.
 4. If Vcm is too high the Mosfet enters the **triode region** which increases distortion.
-5. # Differential Amplifier Analysis (MOSFET-Based)
-
-## 1. Impact of Common-Mode Voltage (V_CM)
-- The **source voltage (V_S)** increases as \( V_{CM} \) increases.
-- The **drain voltage (V_out)** decreases with increasing \( V_{CM} \), due to increased drain current.
-- If \( V_{CM} \) is too **low**, the MOSFETs **turn off**, and the amplifier ceases operation.
-- If \( V_{CM} \) is too **high**, the MOSFETs enter the **triode region**, reducing gain and increasing distortion.
-- The amplifier operates **properly only within a specific range** of \( V_{CM} \) (Common-Mode Voltage Range, CMVR).
-
-## 2. Common-Mode Rejection Ratio (CMRR)
-- The differential amplifier is **designed to reject common-mode signals**.
-- Practical circuits show a **finite CMRR**, meaning common-mode signals still influence \( V_{out} \).
-- Higher **mismatch** in MOSFETs or bias currents **reduces CMRR**, making the amplifier more sensitive to common-mode variations.
-
-## 3. Differential Gain vs. Common-Mode Gain
-- **Differential gain (A_d)** is high because the circuit amplifies differences between \( V_{in1} \) and \( V_{in2} \).
-- **Common-mode gain (A_cm)** should ideally be **zero**, but due to imperfections, it is small but nonzero.
-- A high **CMRR (\( A_d / A_{cm} \))** is desirable for good performance.
-
-## 4. Effect of Tail Current Source
-- A **constant current source** as the tail current improves gain and **stabilizes** differential operation.
-- If the tail current source is not ideal, it introduces **variations in gain and biasing**.
-- A **higher tail current** increases **transconductance (g_m)**, improving differential gain but increasing power consumption.
-
-## 5. Nonlinearities and Distortion
-- The amplifier is **linear** only within a certain input range.
-- Exceeding this range leads to **clipping, distortion, and loss of differential gain**.
-- **Mismatch in MOSFET parameters (threshold voltage, mobility, etc.)** introduces offset voltages and reduces performance.
-
-## 6. AC Response and Frequency Limitations
-- The **gain bandwidth product (GBW)** depends on MOSFET parameters and load capacitance.
-- At high frequencies, **parasitic capacitances** (gate-to-source, drain-to-bulk) **reduce gain**.
-- Proper **biasing and compensation techniques** are needed to extend bandwidth.
-
-## 7. Design Considerations
-- **Choosing \( R_D \) and \( I_{tail} \)** properly balances gain, bandwidth, and power consumption.
-- **MOSFET matching** is critical for high precision and good CMRR.
-- To improve **CMRR**, a **current mirror-based tail current source** is often used.
+5.  **Differential gain (A_d)** is high because the circuit amplifies differences between \( V_{in1} \) and \( V_{in2} \).
+6.  **Common-mode gain (A_cm)** should ideally be **zero**, but due to imperfections, it is small but nonzero.
+7.  A high **CMRR (\( A_d / A_{cm} \))** is desirable for good performance.
+8.  The amplifier is **linear** only within a certain input range.
+9.  Exceeding this range leads to **clipping, distortion, and loss of differential gain**.
+10. **Choosing \( R_D \) and \( I_{tail} \)** properly balances gain, bandwidth, and power consumption.
 
 ## Conclusion
+
 - A differential amplifier provides **high gain for differential signals** while rejecting common-mode noise.
 - It has a **limited operating range**, and exceeding \( V_{CM} \) limits causes performance degradation.
 - **Tail current stability, MOSFET matching, and frequency response** are crucial design factors.
