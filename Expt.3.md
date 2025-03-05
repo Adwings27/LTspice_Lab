@@ -46,13 +46,23 @@ DC analysis helps determine the operating point (Q-point) of the MOSFETs.
   V_{out1} = V_{DD} - I_{D1} R_D
   
   V_{out2} = V_{DD} - I_{D2} R_D
-After designing the amplifier we get the following values:  
+
+After designing the amplifier we get the following values: 
+
 ![WhatsApp Image 2025-03-05 at 16 16 18_60a48cb9](https://github.com/user-attachments/assets/896b251e-a457-402b-b1d2-e074ce6f6fb9)
 
 Below shown table gives the values obtained from the DC analysis which closely matches the design question
 
 ![DCanalysisDA](https://github.com/user-attachments/assets/bef5efe6-9805-49c1-8d25-eddb3a4c046e)
 
+Vid = Vin1 - Vin2
+So when Vin1 is increased to 1.76 V and Vin2 is decreased to 1.68 V we get the following values:
+
+![VidInc](https://github.com/user-attachments/assets/8a5ef67d-36ab-4e7d-bd87-b9646d921923)
+
+Similarly, when Vin1 is decreased to 1.68 V and Vin2 is increased to 1.76 V we get the following values:
+
+![VidDec](https://github.com/user-attachments/assets/eaf5e982-72cd-499a-8fbe-4a42d0d24e36)
 
 **2. Transient Analysis (Time-Domain Response):**  
 - In transient analysis, we apply a time-varying input signal and observe the response at the output.  
@@ -84,6 +94,6 @@ Similary for Vin Min, the output will be a square wave
   where g_m is the transconductance of the MOSFET  
   - Frequency response is determined by analyzing the **3dB bandwidth**.
 
-We get the following frequency response for the given circuit
+We get the following frequency response for the given circuit:
 
 ![AcanalysisDA](https://github.com/user-attachments/assets/175a7fe8-763c-4cf1-887c-8a8f706e39b8)
