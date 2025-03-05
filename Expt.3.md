@@ -22,9 +22,12 @@ A MOSFET differential amplifier consists of:
 ## **Circuit Diagram in LTSpice:**
 
   ![Diffamp](https://github.com/user-attachments/assets/e47c0b0d-dbfd-4687-9ecf-8b6e531b8d67)
- 
 
-## **1. DC Analysis (Biasing and Operating Point Calculation):**  
+  Below is the aspect ratio taken for the MOSFETs
+
+  ![MosAspect](https://github.com/user-attachments/assets/a2aa8acd-dc60-4887-96c6-a7f8ff10083a)
+
+ ## **1. DC Analysis (Biasing and Operating Point Calculation):**  
 DC analysis helps determine the operating point (Q-point) of the MOSFETs.  
 - Assume both transistors are in **saturation region**:  
 
