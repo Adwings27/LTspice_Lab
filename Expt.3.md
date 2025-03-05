@@ -16,8 +16,12 @@ A MOSFET differential amplifier consists of:
 2. **A current source (or resistor) at the source terminal** to provide a stable tail current.  
 3. **Drain resistors (RD1 and RD2)** to convert current variations into voltage output.  
 4. **Supply voltage (V_DD)** to power the circuit.  
-5. **Gate terminals receiving the differential inputs (\(V_{in1}\) and \(V_{in2}\)).**  
+5. **Gate terminals receiving the differential inputs (\(V_{in1}\) and \(V_{in2}\)).**
 
+   **Circuit Diagram:**
+
+  ![Diffamp](https://github.com/user-attachments/assets/e47c0b0d-dbfd-4687-9ecf-8b6e531b8d67)
+ 
 ---
 
 **Types of Analysis:**
@@ -41,6 +45,13 @@ DC analysis helps determine the operating point (Q-point) of the MOSFETs.
   V_{out1} = V_{DD} - I_{D1} R_D
   
   V_{out2} = V_{DD} - I_{D2} R_D
+After designing the amplifier we get the following values:  
+![WhatsApp Image 2025-03-05 at 16 16 18_60a48cb9](https://github.com/user-attachments/assets/896b251e-a457-402b-b1d2-e074ce6f6fb9)
+
+Below shown table gives the values obtained from the DC analysis which closely matches the design question
+
+![DCanalysisDA](https://github.com/user-attachments/assets/bef5efe6-9805-49c1-8d25-eddb3a4c046e)
+
 
 **2. Transient Analysis (Time-Domain Response):**  
 - In transient analysis, we apply a time-varying input signal and observe the response at the output.  
