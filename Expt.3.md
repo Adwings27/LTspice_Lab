@@ -1,4 +1,4 @@
-## **Differential Amplifier Using MOSFETs**  
+## **Experiment-3: Differential Amplifier Using MOSFETs**  
 
 ## **Aim:**  
 To design and analyze a MOSFET-based differential amplifier by performing **DC analysis, transient analysis, and AC analysis** to understand its biasing, time-domain response, and frequency characteristics.
