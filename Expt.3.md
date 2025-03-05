@@ -145,7 +145,7 @@ The below is the frequency response obtained:
 
 ![image](https://github.com/user-attachments/assets/f01aa9c2-61e6-4184-9058-d02c64452474)
 
-The gain is 30 and the bandwidth is 10 MHz.
+The gain is 30 dB and the bandwidth is 10 MHz.
 
 
 ## **Inference:**
@@ -160,6 +160,7 @@ The gain is 30 and the bandwidth is 10 MHz.
 8.  The amplifier is **linear** only within a certain input range.
 9.  Exceeding this range leads to **clipping, distortion, and loss of differential gain**.
 10. **Choosing \( R_D \) and \( I_{tail} \)** properly balances gain, bandwidth, and power consumption.
+11. Vin(CM) is directly proportional to the gain of the amplifier.
 
 ## Conclusion
 
