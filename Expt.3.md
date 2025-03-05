@@ -19,7 +19,7 @@ A MOSFET differential amplifier consists of:
 4. **Supply voltage (V_DD)** to power the circuit.  
 5. **Gate terminals receiving the differential inputs (\(V_{in1}\) and \(V_{in2}\)).**
 
-## **Circuit-1:**
+## **Circuit-1 with resistor:**
 
   ![Diffamp](https://github.com/user-attachments/assets/e47c0b0d-dbfd-4687-9ecf-8b6e531b8d67)
 
@@ -27,7 +27,7 @@ A MOSFET differential amplifier consists of:
 
   ![MosAspect](https://github.com/user-attachments/assets/a2aa8acd-dc60-4887-96c6-a7f8ff10083a)
 
- ## **1. DC Analysis (Biasing and Operating Point Calculation):**  
+ ## **DC Analysis (Biasing and Operating Point Calculation):**  
 DC analysis helps determine the operating point (Q-point) of the MOSFETs.  
 - Assume both transistors are in **saturation region**:  
 
@@ -69,7 +69,7 @@ Similarly, when Vin1 is decreased to 1.68 V and Vin2 is increased to 1.76 V we g
 
 
 
-## **2. Transient Analysis (Time-Domain Response):**  
+## **Transient Analysis (Time-Domain Response):**  
 - In transient analysis, we apply a time-varying input signal and observe the response at the output.  
 - The circuit’s response to step, sinusoidal, or pulse inputs is analyzed.  
 - This helps determine the amplifier's **rise time, fall time, and response to fast-changing signals.**
@@ -97,7 +97,7 @@ Similary for Vin Min, the output will be a square wave
 ![image](https://github.com/user-attachments/assets/edd30b43-50cb-4ae5-8c13-2e5dc7b61715)
 
 
-## **3. AC Analysis (Small-Signal Gain and Frequency Response):**  
+## **AC Analysis (Small-Signal Gain and Frequency Response):**  
 - The small-signal model of the MOSFET is used for AC analysis.  
 - The small-signal **differential gain** is given by:  
   A_d = -g_m*R_D 
@@ -112,7 +112,22 @@ The gain of this amplifier is 3.2 dB.
 
 The bandwidth is 2 MHz.
 
-## **4. Inference:**
+## **Circuit-2 with current source**
+
+![DiffAmpCurrent](https://github.com/user-attachments/assets/217900d6-c90a-4d5d-8384-c25fadce8b7f)
+
+The above circuit shows the differential amplifier with a current source.
+
+The aspect ratio of the Mosfet remains the same.
+
+## **DC analysis**
+The below values were obtained in the analysis:
+
+![DcanalysisCur](https://github.com/user-attachments/assets/9d39d5a1-cb77-4eb0-9af5-3356def85ba4)
+
+
+
+## **Inference:**
 
 1. The source voltage increases as Vcm increases.
 2. Vout decreases with increase in Vcm, due to increase in drain current Id.
