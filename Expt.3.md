@@ -21,7 +21,8 @@ A MOSFET differential amplifier consists of:
 
 ## **Circuit-1 with resistor:**
 
-  ![Diffamp](https://github.com/user-attachments/assets/e47c0b0d-dbfd-4687-9ecf-8b6e531b8d67)
+  ![image](https://github.com/user-attachments/assets/4048bf5e-dc60-4345-9fd4-74fe440b9da5)
+
 
   Below is the aspect ratio taken for the MOSFETs
 
@@ -76,25 +77,30 @@ Similarly, when Vin1 is decreased to 1.68 V and Vin2 is increased to 1.76 V we g
 
 The below picture shows the waveforms obtained after transient analysis:
 
-![Transient](https://github.com/user-attachments/assets/c4c9334a-67fa-4690-a039-403fb2012ece)
+![image](https://github.com/user-attachments/assets/16ce5966-2a5f-48ed-b91a-71762e3aa359)
 
-The gain is given by Av = Vout/Vin= (1.88-1.74)/(1.77-1.67) = 1.4 V/V
 
-Vin Max= VoutCM + Vth
+The gain is given by Av = Vout/Vin= (2.02-1.58)/(1.77-1.67) = 4.4 V/V
+
+We know that,
+
+**Vin Max= VoutCM + Vth**
 
 Vin Max= 1.8 V + 0.36 V = 2.16 V
 
-Similarly, Vin Min= Vth + Vp
+**Similarly, Vin Min= Vth + Vp**
 
 Vin Min= 0.36 V + 0.7 V = 1.06 V
 
 When Vin Max is applied in the amplitude of the input sine wave we get the following output of a square wave
 
-![TransMaxDA (2)](https://github.com/user-attachments/assets/b4a3d312-33c5-4add-bc56-ed53fab1dd4e)
+![image](https://github.com/user-attachments/assets/2dfc97b9-6710-48a5-9ab6-6f72c197050b)
+
 
 Similary for Vin Min, the output will be a square wave
 
-![image](https://github.com/user-attachments/assets/edd30b43-50cb-4ae5-8c13-2e5dc7b61715)
+![image](https://github.com/user-attachments/assets/5eb5d2eb-a3ca-4b1b-8636-f930777fa3fd)
+
 
 
 ## **AC Analysis (Small-Signal Gain and Frequency Response):**  
