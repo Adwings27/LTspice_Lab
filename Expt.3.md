@@ -58,11 +58,12 @@ Below shown table gives the values obtained from the DC analysis which closely m
 - In transient analysis, we apply a time-varying input signal and observe the response at the output.  
 - The circuit’s response to step, sinusoidal, or pulse inputs is analyzed.  
 - This helps determine the amplifier's **rise time, fall time, and response to fast-changing signals.**
- The below picture shows the waveforms obtained after transient analysis:
+
+The below picture shows the waveforms obtained after transient analysis:
 
 ![Transient](https://github.com/user-attachments/assets/c4c9334a-67fa-4690-a039-403fb2012ece)
 
-Vin Max= 
+Vin Max= VoutCm
 
 **3. AC Analysis (Small-Signal Gain and Frequency Response):**  
 - The small-signal model of the MOSFET is used for AC analysis.  
