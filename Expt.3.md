@@ -7,6 +7,7 @@ Design question: To Design a basic diffrential amplifier for the following speci
 
 **Theory:**  
 A **MOSFET differential amplifier** is a fundamental circuit used in analog electronics, particularly in operational amplifiers, signal processing, and communication circuits. It amplifies the voltage difference between two input signals while suppressing common-mode signals.
+
 ![image](https://github.com/user-attachments/assets/21d8e303-e801-4207-b207-0866e33080ff)
 
 
@@ -18,7 +19,7 @@ A MOSFET differential amplifier consists of:
 4. **Supply voltage (V_DD)** to power the circuit.  
 5. **Gate terminals receiving the differential inputs (\(V_{in1}\) and \(V_{in2}\)).**
 
-   **Circuit Diagram:**
+   **Circuit Diagram in LTSpice:**
 
   ![Diffamp](https://github.com/user-attachments/assets/e47c0b0d-dbfd-4687-9ecf-8b6e531b8d67)
  
