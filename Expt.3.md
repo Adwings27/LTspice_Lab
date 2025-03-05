@@ -84,9 +84,9 @@ Vin Max= VoutCM + Vth
 
 Vin Max= 1.8 V + 0.36 V = 2.16 V
 
-Similarly, Vin Min= Vgs + Vp
+Similarly, Vin Min= Vth + Vp
 
-Vin Min= 1.02 V + 0.7 V = 1.72 V
+Vin Min= 0.36 V + 0.7 V = 1.06 V
 
 When Vin Max is applied in the amplitude of the input sine wave we get the following output of a square wave
 
@@ -94,7 +94,8 @@ When Vin Max is applied in the amplitude of the input sine wave we get the follo
 
 Similary for Vin Min, the output will be a square wave
 
-![TransMinDA](https://github.com/user-attachments/assets/dfbdb0eb-d798-4541-bb7a-ec35e02638d3)
+![image](https://github.com/user-attachments/assets/edd30b43-50cb-4ae5-8c13-2e5dc7b61715)
+
 
 ## **3. AC Analysis (Small-Signal Gain and Frequency Response):**  
 - The small-signal model of the MOSFET is used for AC analysis.  
