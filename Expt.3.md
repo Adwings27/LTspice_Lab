@@ -112,11 +112,11 @@ Similary for Vin Min, the output will be a square wave
 
 We get the following frequency response for the given circuit:
 
-![AcanalysisDA](https://github.com/user-attachments/assets/175a7fe8-763c-4cf1-887c-8a8f706e39b8)
+![image](https://github.com/user-attachments/assets/a51eed84-7b3f-41a8-a15a-fd9d57fc4efd)
 
-The gain of this amplifier is 3.2 dB.
+The gain of this amplifier is 30 dB.
 
-The bandwidth is 2 MHz.
+The bandwidth is 10 MHz.
 
 ## **Circuit-2 with current source**
 
@@ -138,6 +138,15 @@ With the current source, we obtain the following waveforms:
 ![image](https://github.com/user-attachments/assets/cef3071e-fdc3-4f88-a78b-cd7e1f75eef2)
 
 Av = Vout/Vin = 4.4 V/V
+
+## **AC Analysis**
+
+The below is the frequency response obtained:
+
+![image](https://github.com/user-attachments/assets/f01aa9c2-61e6-4184-9058-d02c64452474)
+
+The gain is 30 dB and the bandwidth is 10 MHz
+
 
 
 ## **Inference:**
