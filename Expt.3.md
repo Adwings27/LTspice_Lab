@@ -19,7 +19,7 @@ A MOSFET differential amplifier consists of:
 4. **Supply voltage (V_DD)** to power the circuit.  
 5. **Gate terminals receiving the differential inputs (\(V_{in1}\) and \(V_{in2}\)).**
 
-## **Circuit Diagram in LTSpice:**
+## **Circuit-1:**
 
   ![Diffamp](https://github.com/user-attachments/assets/e47c0b0d-dbfd-4687-9ecf-8b6e531b8d67)
 
