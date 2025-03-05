@@ -63,11 +63,27 @@ The below picture shows the waveforms obtained after transient analysis:
 
 ![Transient](https://github.com/user-attachments/assets/c4c9334a-67fa-4690-a039-403fb2012ece)
 
-Vin Max= VoutCm
+Vin Max= VoutCM + Vth
+Vin Max= 1.8 V + 0.36 V = 2.16 V
+
+Similarly, Vin Min= Vgs + Vp
+Vin Min= 1.02 V + 0.7 V = 1.72 V
+
+When Vin Max is applied in the amplitude of the input sine wave we get the following output of a square wave
+
+![TransMaxDA (2)](https://github.com/user-attachments/assets/b4a3d312-33c5-4add-bc56-ed53fab1dd4e)
+
+Similary for Vin Min, the output will be a square wave
+
+![TransMinDA](https://github.com/user-attachments/assets/dfbdb0eb-d798-4541-bb7a-ec35e02638d3)
 
 **3. AC Analysis (Small-Signal Gain and Frequency Response):**  
 - The small-signal model of the MOSFET is used for AC analysis.  
 - The small-signal **differential gain** is given by:  
   A_d = g_m*R_D
   where g_m is the transconductance of the MOSFET  
-  - Frequency response is determined by analyzing the **3dB bandwidth**, which depends on the **parasitic capacitances and load capacitance.**
+  - Frequency response is determined by analyzing the **3dB bandwidth**.
+
+We get the following frequency response for the given circuit
+
+![AcanalysisDA](https://github.com/user-attachments/assets/175a7fe8-763c-4cf1-887c-8a8f706e39b8)
