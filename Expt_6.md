@@ -1,4 +1,15 @@
-### Current Mirror 
+#### Current Mirror 
+
+### Aim:
+Design the Current mirror circuit for Av(Gain)>10,Vdd=1.8V,P<=1mw Design the current mirror ratio 1:1 and 1:2 perform transient and Ac Analysis.
+
+### Components and Libraries Required:
+CMOSP(x2),CMOSN(x1),Current source(Reference),Voltage sources , tsmc018.lib
+
+### Theory :
+
+![image](https://github.com/user-attachments/assets/5e5c5fe3-3c5c-493b-b2fd-1efec5881fa0)
+
 The current mirror is an analog circuit that senses the reference current and generates the copy or number of copies of the reference current, with the same characteristics. The replicated current is as stable as the reference current source. The replicated current could be the same as the reference current (Id = Iref),
 
 
