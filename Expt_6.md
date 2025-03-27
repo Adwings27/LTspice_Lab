@@ -45,7 +45,7 @@ Iref = Id = ( Itotal / 2 )
 ![image](https://github.com/user-attachments/assets/a08667d9-8f63-4a35-ace9-04cbaff65b08)
 #####  Output of AC Analysis
 AV=29.8364dB Frequency=10MHz
-Bandwidth = (29.836dB-3dB) = 26.836dB , Frequency=278.8126MHz
+Bandwidth = (29.83dB-3dB) = 26.83dB , Frequency=278.81MHz
 ##### 2) with length as 500nm
 #### DC Analysis
 ![image](https://github.com/user-attachments/assets/f64a80a7-4786-4999-99bf-0b1218b2585f)
@@ -57,9 +57,8 @@ Bandwidth = (29.836dB-3dB) = 26.836dB , Frequency=278.8126MHz
 ![image](https://github.com/user-attachments/assets/a8f4d2d8-6fa7-48b2-9d69-dd4a77baff54)
 #####  Output of AC Analysis
 Av=38.8366dB Frequency=11.818MHz
-Bandwidth = (38.8366-3dB)=35.8366 , Frequency= 54.52644MHz
-![image](https://github.com/user-attachments/assets/92b789de-8292-45cc-abe4-b399947dde6b)
-##### Analysis Table
+Bandwidth = (38.83-3dB)=35.83 , Frequency= 54.52MHz
+
 ##### 3) with length as 1u
 #### DC Analysis
 ![image](https://github.com/user-attachments/assets/8d6ce3e9-8462-4a80-96f4-8f2121979018)
@@ -70,8 +69,8 @@ Bandwidth = (38.8366-3dB)=35.8366 , Frequency= 54.52644MHz
 #### AC Analysis
 ![image](https://github.com/user-attachments/assets/3e3006d5-1031-4fab-9a17-e5f24ec736a3)
 #####  Output of AC Analysis
-Av=38.521746dB Frequency=10MHz
-Bandwidth=(38.521746-3dB) = 35.521746dB , Frequency=41.09976MHz
+Av=38.526dB Frequency=10MHz
+Bandwidth=(38.52-3dB) = 35.52dB , Frequency=41.09MHz
 
 
 #### Current Mirror CIrcuit with 1:2 Ratio
@@ -87,7 +86,7 @@ Bandwidth=(38.521746-3dB) = 35.521746dB , Frequency=41.09976MHz
 ![image](https://github.com/user-attachments/assets/1748a3e7-09f7-422f-8c15-1166af4698dc)
 #####  Output of AC Analysis
 Av=29.781147dB Frequency=10MHz
-Bandwidth=(29.781147dB-3dB) = 26.781147 , Frrequency=268.26MHz
+Bandwidth=(29.78dB-3dB) = 26.78 , Frrequency=268.26MHz
 
 ##### 2) With length as 500nm
 #### DC Analysis
@@ -100,7 +99,7 @@ Bandwidth=(29.781147dB-3dB) = 26.781147 , Frrequency=268.26MHz
 ![image](https://github.com/user-attachments/assets/78c753b5-1885-44ea-9d7d-9191075940b7)
 ##### Output of AC Analysis
 Av=38.83132dB Frequency=11.97085MHz
-Bandwidth=(38.83132-3dB)=35.83132 , Frequency=53.830MHz
+Bandwidth=(38.83-3dB)=35.83 , Frequency=53.83MHz
 
 ##### 3) with length as 1u
 #### DC Analysis
@@ -113,6 +112,6 @@ Bandwidth=(38.83132-3dB)=35.83132 , Frequency=53.830MHz
 ![426340776-9edb6d93-75f4-46eb-89b5-560849231f5a](https://github.com/user-attachments/assets/15c69ef2-d9ea-4227-b15c-bdad0e20fb43)
 
 ##### Fig 22: Output of AC Analysis
-AV=40.56627 , Frequency=11.5181812
-(40.56627-3dB) = 37.57859 , 33.894867MHz
-There is a minute difference in Vx and Vout due to channel length modulation 
+AV=40.56 , Frequency=11.51
+(40.56-3dB) = 37.56 , 33.89MHz
+ 
