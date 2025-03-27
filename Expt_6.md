@@ -99,7 +99,8 @@ Bandwidth=(38.83132-3dB)=35.83132 , Frequency=53.830MHz
 ![image](https://github.com/user-attachments/assets/499f5454-61a9-4984-a691-9207b74aecb4)
 ##### Output of Transient Analysis
 #### Ac Analysis
-![image](https://github.com/user-attachments/assets/9edb6d93-75f4-46eb-89b5-560849231f5a)
+![426340776-9edb6d93-75f4-46eb-89b5-560849231f5a](https://github.com/user-attachments/assets/15c69ef2-d9ea-4227-b15c-bdad0e20fb43)
+
 ##### Fig 22: Output of AC Analysis
 AV=40.56627 , Frequency=11.5181812
 (40.56627-3dB) = 37.57859 , 33.894867MHz
