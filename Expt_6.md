@@ -21,11 +21,10 @@ Itotal = ( Power / Vdd )
 Iref = Id = ( Itotal / 2 )
 = 0.55m / 2
 = 0.277mA
-#### DC Ananlysis
+#### DC Analysis
 ![image](https://github.com/user-attachments/assets/66dbaded-8ed4-4f99-b83e-5dc9da33ad1b)
 #####  output of DC Ananlysis
-![image](https://github.com/user-attachments/assets/25e9f87b-52fe-4356-b6f9-2c4e26e5911e)
-#####  Tabular column of the analysis
+
 
 #### Transient Analysis
 ![image](https://github.com/user-attachments/assets/2ee3938c-dbe8-4c71-81b1-ef285ec5567e)
@@ -37,7 +36,7 @@ Iref = Id = ( Itotal / 2 )
 AV=29.8364dB Frequency=10MHz
 Bandwidth = (29.836dB-3dB) = 26.836dB , Frequency=278.8126MHz
 ##### 2) with length as 500nm
-#### DC Ananlysis
+#### DC Analysis
 ![image](https://github.com/user-attachments/assets/f64a80a7-4786-4999-99bf-0b1218b2585f)
 #####  Output of DC Analysis
 #### Transient Ananlysis
@@ -49,7 +48,7 @@ Bandwidth = (29.836dB-3dB) = 26.836dB , Frequency=278.8126MHz
 Av=38.8366dB Frequency=11.818MHz
 Bandwidth = (38.8366-3dB)=35.8366 , Frequency= 54.52644MHz
 ![image](https://github.com/user-attachments/assets/92b789de-8292-45cc-abe4-b399947dde6b)
-##### Ananlysis Table
+##### Analysis Table
 ##### 3) with length as 1u
 #### DC Ananlysis
 ![image](https://github.com/user-attachments/assets/8d6ce3e9-8462-4a80-96f4-8f2121979018)
@@ -68,10 +67,10 @@ Bandwidth=(38.521746-3dB) = 35.521746dB , Frequency=41.09976MHz
 #### Current Mirror CIrcuit with 1:2 Ratio
 
 ##### 1) With length as 180nnm
-#### DC Ananlysis
+#### DC Analysis
 ![image](https://github.com/user-attachments/assets/1119a53c-488f-4885-97a6-f60ba8f896a6)
 ##### Output of DC Analysis
-#### Transient Ananlysis
+#### Transient Analysis
 ![image](https://github.com/user-attachments/assets/a99562ab-7e0a-4fe0-8521-ed1228d7f348)
 ##### Output of Tansient Ananlysis
 #### AC Ananlysis
