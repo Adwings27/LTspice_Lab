@@ -1,23 +1,12 @@
 ### Current Mirror 
 The current mirror is an analog circuit that senses the reference current and generates the copy or number of copies of the reference current, with the same characteristics. The replicated current is as stable as the reference current source. The replicated current could be the same as the reference current (Id = Iref),
-![image](https://github.com/user-attachments/assets/84f45841-62e3-4ba4-a334-0636348bb04e)
 
-##### Fig 1: Current mirror circuit.
+
 The relation between the Id and Iref can be given by the following expression.
 
 Id = ( (W/L)1 / (W/L)ref ) * Iref
 
 By changing the W/L ratio of the two transistors, the current which is fraction or multiple of the reference current can be generated. The only thing which needs to be ensured is that, the MOSFET should operate in the saturation region.
-####Simulation
-![image](https://github.com/user-attachments/assets/be2bb082-3b21-4f6d-b203-a648e475ea05)
-##### Fig 2:Example porblem shown in class
-![image](https://github.com/user-attachments/assets/df435a79-882b-428d-a4e3-36819b6412eb)
-- Observation table for Iref=100u
-
-##### PMOS CURRENT MIRROR
-![Image](https://github.com/user-attachments/assets/9da3e268-b690-4c47-8e49-fec7c97a8512)
-##### Fig 3: PMOS Current mirror circuit
-In a PMOS current mirror, the source terminals of both transistors are connected to the supply voltage Vdd. The relationship between ID1 and IREF remains the same as in other configurations. The key requirement is to ensure that both M2 and M3 operate in the saturation region. This can be expressed as the condition VSD1 ≥ VSG - |VTP|, where VTP represents the threshold voltage of the PMOS transistor.
 
 #### Simulation 
 #### 1) Current mirror circuit with 1:1 ratio
