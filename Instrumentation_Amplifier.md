@@ -89,7 +89,6 @@ Vout p-p = 1.462 mV
 
 ## Inference:
 
-### Inference:
-
 The instrumentation amplifier is an essential component in precision signal processing due to its ability to amplify low-level differential signals while rejecting common-mode noise. Its high input impedance, low output impedance, and excellent CMRR make it highly suitable for applications involving sensitive measurements, such as in biomedical and industrial instrumentation.
+
 The 3-op-amp instrumentation amplifier designed using LM741 and simulated in LTspice successfully amplifies differential signals while rejecting common-mode inputs. As the gain-setting resistor RG decreases, the differential gain Adm increases, improving signal amplification. The circuit shows excellent common-mode rejection with very low Acm, resulting in high CMRR values. This confirms the effectiveness of the design for accurate, low-noise signal amplification in sensitive measurement applications.
