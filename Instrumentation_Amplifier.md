@@ -1,7 +1,7 @@
 # Instrumentation Amplifier
 
 ## Design Question
-Design an instrumentation amplifier using 3 op-amp configuration with the following constraints, R1=R3=10k ohm, R2=R4=20k ohm, R5=R6=10k ohm. Calculate Adm for Rg= 10,100,1k,10k,20k ohms. Find Acm and CMRR for each case. Use LTSpice Simulator.
+Design an instrumentation amplifier using 3 op-amp configuration with the following constraints, R1=R3=10k ohm, R2=R4=20k ohm, R5=R6=10k ohm. Calculate Adm for Rg= 10,100,1k,10k,20k ohms. Find Acm and CMRR for each case. Use LTSpice Simulator. Take Vcc= 15V.
 
 ## Theory
 An **Instrumentation Amplifier (IA)** is a type of differential amplifier that offers **high input impedance**, **high common-mode rejection ratio (CMRR)**, and **precise gain control**, making it ideal for accurate and low-noise signal amplification.
@@ -33,6 +33,8 @@ To find out Adm we use the formula:
 To find Vid we use the formula:
 
 **Vid = Vsat/Adm** 
+
+(Vsat= 90% of Vcc)
 
 We do this for each case.
 
