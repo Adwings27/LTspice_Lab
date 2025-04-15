@@ -22,9 +22,11 @@ Instrumentation amplifiers are widely used when small differential signals need 
 
 ![image](https://github.com/user-attachments/assets/f8cee726-1ec5-455c-bcfd-a30f9f3f79ea)
 
-### Circuit Diagram
+## Circuit Diagram
 
 ![image](https://github.com/user-attachments/assets/86ffc17f-4107-47b3-ad3c-d681a00af8b8)
+
+## Calculations:
 
 To find out Adm we use the formula:
 
@@ -68,6 +70,23 @@ Vout p-p = 146.3 uV
 
 #### For RG = 10k ohms,
 
+![image](https://github.com/user-attachments/assets/02634855-229b-4973-97fe-dbfccd63cf98)
+
+Vout p-p = 974.8 uV
+
+#### For RG = 20k ohms,
+
+![image](https://github.com/user-attachments/assets/14bfb3b7-958a-4398-a988-92e29f656057)
+
+Vout p-p = 1.462 mV
+
+## Results:
+
+**Finding Acm and CMRR for each case:**
+
+![WhatsApp Image 2025-04-15 at 22 21 03_2f6ec407](https://github.com/user-attachments/assets/1dda7104-8a82-402c-b616-305841a93590)
+![WhatsApp Image 2025-04-15 at 22 21 04_957a6ca0](https://github.com/user-attachments/assets/e935196d-b462-4b45-a1e1-8afec3234bcd)
+
+## Inference:
 
 
-Vout 
