@@ -42,3 +42,32 @@ Performing the calculations, we get,
 
 ![WhatsApp Image 2025-04-15 at 22 01 55_03ca5c88](https://github.com/user-attachments/assets/a6595af4-9987-4c1d-912c-29ebc4a1ce37)
 
+#### For RG = 10 ohms,
+
+**Transient Analysis:**
+
+![image](https://github.com/user-attachments/assets/bb3d1771-cd8e-4238-9f87-36004cf1aa7c)
+
+Vout p-p = 1.44 uV.
+
+#### For RG = 100 ohms,
+
+**Transient Analysis:**
+
+![image](https://github.com/user-attachments/assets/b7d8323a-ecbe-46b0-8046-0fe2b5465664)
+
+Vout p-p = 14.61 uV
+
+#### For RG = 1k ohms,
+
+**Transient Analysis:**
+
+![image](https://github.com/user-attachments/assets/ccf84c65-379b-4c10-a7f3-97484a42b7bd)
+
+Vout p-p = 146.3 uV
+
+#### For RG = 10k ohms,
+
+
+
+Vout 
