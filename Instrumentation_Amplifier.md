@@ -26,3 +26,13 @@ Instrumentation amplifiers are widely used when small differential signals need 
 
 ![image](https://github.com/user-attachments/assets/86ffc17f-4107-47b3-ad3c-d681a00af8b8)
 
+To find out Adm we use the formula:
+![image](https://github.com/user-attachments/assets/3e2bfb16-51af-4437-a0ea-d17d0ba5cfe6)
+
+To find Vid we use the formula:
+**Vid = Vsat/Adm** 
+We do this for each case
+Performing the calculations, we get,
+
+![WhatsApp Image 2025-04-15 at 22 01 55_03ca5c88](https://github.com/user-attachments/assets/a6595af4-9987-4c1d-912c-29ebc4a1ce37)
+
