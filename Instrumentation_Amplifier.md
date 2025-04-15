@@ -31,8 +31,11 @@ To find out Adm we use the formula:
 ![image](https://github.com/user-attachments/assets/3e2bfb16-51af-4437-a0ea-d17d0ba5cfe6)
 
 To find Vid we use the formula:
+
 **Vid = Vsat/Adm** 
-We do this for each case
+
+We do this for each case.
+
 Performing the calculations, we get,
 
 ![WhatsApp Image 2025-04-15 at 22 01 55_03ca5c88](https://github.com/user-attachments/assets/a6595af4-9987-4c1d-912c-29ebc4a1ce37)
